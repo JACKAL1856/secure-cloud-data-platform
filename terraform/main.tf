@@ -13,3 +13,17 @@ provider "aws" {
   region = "ap-south-1"
 }
 
+
+
+module "iam" {
+  source = "./iam"
+}
+
+module "s3" {
+  source = "./s3"
+}
+
+
+
+
+
