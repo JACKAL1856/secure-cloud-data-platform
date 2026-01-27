@@ -23,7 +23,7 @@ module "s3" {
   source = "./s3"
 }
 
-
-
-
+module "cloudtrail" {
+  source = "./cloudtrail"
+}
 
