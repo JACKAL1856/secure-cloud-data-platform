@@ -1,0 +1,17 @@
+[
+  {
+    "sourceUser": "dev-backend",
+    "sourceAccount": "111111111111",
+    "targetRole": "AuditRole",
+    "targetAccount": "222222222222",
+    "action": "sts:AssumeRole"
+  },
+  {
+    "sourceUser": "dev-backend",
+    "sourceAccount": "111111111111",
+    "targetRole": "BillingAdmin",
+    "targetAccount": "333333333333",
+    "action": "sts:AssumeRole"
+  }
+]
+
