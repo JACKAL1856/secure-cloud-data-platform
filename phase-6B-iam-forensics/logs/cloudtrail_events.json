@@ -1,0 +1,27 @@
+[
+  {
+    "eventTime": "2026-01-28T10:32:00Z",
+    "eventName": "ConsoleLogin",
+    "userIdentity": "dev-backend",
+    "sourceIPAddress": "185.220.101.4",
+    "geo": "Germany"
+  },
+  {
+    "eventTime": "2026-01-28T10:34:12Z",
+    "eventName": "AttachUserPolicy",
+    "policy": "AdministratorAccess",
+    "userIdentity": "dev-backend"
+  },
+  {
+    "eventTime": "2026-01-28T10:36:00Z",
+    "eventName": "ListBuckets",
+    "userIdentity": "dev-backend"
+  },
+  {
+    "eventTime": "2026-01-28T10:37:10Z",
+    "eventName": "GetObject",
+    "resource": "sensitive-data.csv",
+    "userIdentity": "dev-backend"
+  }
+]
+
