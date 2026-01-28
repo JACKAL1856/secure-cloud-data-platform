@@ -1,0 +1,20 @@
+[
+  {
+    "event_id": "evt-001",
+    "user": "dev-backend",
+    "event": "ConsoleLogin",
+    "source_ip": "185.220.101.4",
+    "geo": "Germany",
+    "success": true,
+    "timestamp": "2026-01-28T10:32:00Z"
+  },
+  {
+    "event_id": "evt-002",
+    "user": "dev-backend",
+    "event": "AttachUserPolicy",
+    "policy": "AdministratorAccess",
+    "source_ip": "185.220.101.4",
+    "timestamp": "2026-01-28T10:34:12Z"
+  }
+]
+
