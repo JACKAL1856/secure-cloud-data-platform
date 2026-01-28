@@ -1,0 +1,33 @@
++----------------------+
+|  Cloud Environment   |
+| (IAM, API, Network)  |
++----------+-----------+
+           |
+           v
++----------------------+
+|  Telemetry Layer     |
+|  - CloudTrail        |
+|  - VPC Flow Logs     |
++----------+-----------+
+           |
+           v
++----------------------+
+|  Detection Layer     |
+|  GuardDuty / Defender|
+|   (Simulated)        |
++----------+-----------+
+           |
+           v
++----------------------+
+|  SOC Analysis        |
+|  - Triage            |
+|  - MITRE Mapping     |
++----------+-----------+
+           |
+           v
++----------------------+
+|  Incident Response   |
+|  - Containment       |
+|  - Remediation       |
++----------------------+
+
