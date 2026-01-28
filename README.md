@@ -66,5 +66,17 @@ This approach reflects **SOC tabletop exercises and replay-based investigations*
 - Incident response design
 - Security-focused Git workflows
 
----
-# secure-cloud-data-platform
+
+## Secure Cloud Data Platform – Incident Response Project
+
+This repository demonstrates a complete cloud IAM incident lifecycle:
+
+- Detection of anomalous IAM activity
+- Automated risk-based incident response
+- Post-incident forensic investigation
+- Cross-account lateral movement analysis
+- Long-term security hardening
+
+The project emphasizes security engineering decisions over tooling,
+mirroring how real cloud security teams operate.
+
