@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "2.0",
+  "accountId": "123456789012",
+  "region": "ap-south-1",
+  "partition": "aws",
+  "id": "abcd1234-iam-recon",
+  "type": "Discovery:IAMUser/AnomalousBehavior",
+  "severity": 5,
+  "createdAt": "2026-01-28T10:15:30Z",
+  "updatedAt": "2026-01-28T10:17:45Z",
+  "resource": {
+    "resourceType": "AccessKey",
+    "accessKeyDetails": {
+      "userName": "temp-user",
+      "principalId": "AIDACKCEVSQ6C2EXAMPLE",
+      "accessKeyId": "AKIAEXAMPLE"
+    }
+  },
+  "service": {
+    "serviceName": "guardduty",
+    "detectorId": "detector-12345",
+    "action": {
+      "actionType": "AWS_API_CALL",
+      "awsApiCallAction": {
+        "api": "ListUsers",
+        "serviceName": "iam"
+      }
+    }
+  },
+  "title": "IAM user performing unusual enumeration activity",
+  "description": "An IAM user is making API calls that are unusual for this account, indicating possible reconnaissance.",
+  "confidence": 0.85
+}
+

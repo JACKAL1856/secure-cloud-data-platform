@@ -1,0 +1,12 @@
+{
+  "eventTime": "2026-01-28T10:12:10Z",
+  "eventSource": "iam.amazonaws.com",
+  "eventName": "ListUsers",
+  "awsRegion": "ap-south-1",
+  "userIdentity": {
+    "type": "IAMUser",
+    "userName": "temp-user"
+  },
+  "sourceIPAddress": "198.51.100.23"
+}
+
